@@ -34,7 +34,7 @@ th {
     <tr>
       <th><?php echo implode('</th><th>', array_keys(current($book))); ?></th>
     </tr>
-  </th>
+  </thead>
   <tbody>
 <?php
 	foreach ($book as $row): array_map('htmlentities', $row);
